@@ -1,0 +1,55 @@
+ <!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  margin: 0;
+  font-family:Times New Roman, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+</style>
+</head>
+<body>
+
+<div class="topnav">
+  
+  <a href="index.html">Brasil</a></li>
+  <a href="food.html">Gastronomía</a></li>
+  <a href="music.html">Música</a></li>
+  <a href="places.html">Lugares</a></li>
+</div>
+
+p {
+line-height:2;
+    text-indent: 50px;
+    margin-left:20px;
+    margin-right:20px;
+    text-align: justify;
+    font-size:26px;
+}
+
+

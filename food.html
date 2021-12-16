@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  margin: 0;
+  font-family:Times New Roman, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 36px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+p {
+line-height:2;
+    text-indent: 50px;
+    margin-left:20px;
+    margin-right:20px;
+    text-align: justify;
+    font-size:26px;
+}
+
+
+</style>
+</head>
+<body> 
+
+<div class="topnav">
+  
+  <a href="index.html">Brasil</a>
+  <a href="food.html">Gastronomía</a>
+  <a href="music.html">Música</a>
+  <a href="places.html">Lugares</a>
+</div>
+
+<!-- Slide Show -->
+<section>
+ 
+  <img class="mySlides" src="https://www.travelwithpedro.com/wp-content/uploads/2015/01/top-places-to-visit-in-brazil-iguazu-falls.jpg" style="width:100%" height="500">
+  <img class="mySlides" src="https://img.theculturetrip.com/wp-content/uploads/2017/01/po_de_acar_visto_do_mirante_dona_marta.jpg" style="width:100%" height="500">
+  <img class="mySlides" src="https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fspecials-images.forbesimg.com%2Fdam%2Fimageserve%2F1004885760%2F960x0.jpg%3Ffit%3Dscale" style="width:100%" height="500">
+  <img class="mySlides" src="https://c1.wallpaperflare.com/preview/188/616/919/araxa-mirante-brazil-sunrise.jpg" style="width:100%" height="500">
+</section>
+
+<script>
+// Automatic Slideshow - change image every 3 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}
+  x[myIndex-1].style.display = "block";
+  setTimeout(carousel, 3000);
+}
+</script>
+  <title>Brasil</title>
+<link rel="stylesheet" href="">
+<center>
+
+<body style="background-color:lavender;">
+    <h1>
+ Gastronomía de Brasil
+  </h1>
+</center>
+  <center>
+  <img> <img src="https://www.estaentumundo.com/wp-content/imagenes/2017/07/gastronomia-brasil.jpg" alt="gastronomia-brasil" width="560" height="333">
+  <h2>Introdución</h2>
+  <p>La gastronomía brasileña es una considerada de las mejores del mundo. Sus platos son derivados de la cocina europea, africana e indígena. Entre sus platos principales está el acarajé, la feijoada, la moqueca entre otros. Para los amantes a las bebidas, está la cachaça, del cual surge la conocida caipirinha.  </p>
+  <iframe width="560" height="333" src="https://www.youtube.com/embed/Eh6IkJ9_Cy4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </main>
+
+<h2>Acarajé</h2>
+<p>Este plato derivado de la la cocina africana,consiste de unas fritangas de frijoles y camarón. Tradicionalmente se come en la zona de Bahía y son acompañadas de vatapá, una combinación de pan, camarones, coco y maní.</p>
+  <img> <img src="https://animalgourmet.com/wp-content/uploads/2020/06/comida-de-brasil-brasile%C3%B1a-2-scaled-e1593496248754.jpg" alt="acarajé" width="560" height="333">
+  <h2>Feijoada</h2>
+<p>La feijoada está preparada con frijoles y pies, rabos al igual que orejas de cerdo. El guiso surgió en el siglo XV en Río de Janeiro durante la colonización europea, cuando los esclavos añadían la carne que sobraba de los dueños de las plantaciones a sus frijoles. 
+  </p>
+  <img> <img src="https://animalgourmet.com/wp-content/uploads/2014/06/feijoada.jpg" alt="feijoada" width="560" height="333">
+  <h2>Moqueca</h2>
+<p>Un guiso carioca es hecho a base de pescado y cocinado en leche de coco con tomates, cebollas, ajo y camarones. Su origen se remonta a los indígenas, los cuales asaban pescado entre hojas de distintos árboles.
+  </p>
+  <img> <img src="https://www.recetasderechupete.com/wp-content/uploads/2021/04/moqueca-capixaba-estofado-de-pescado-brasileno.jpg" alt="moqueca" width="560" height="333">
+  <h2>Caipirinha</h2>
+<p>La caipirinha es una bebida basada en cachaça, azúcar y limón. Originaria de São Paulo, la caipirinha tiene un dulce sabor a pesar de su alto contenido de alcohol y es conocida alrededor de todo el mundo.
+  </p>
+  <img> <img src="https://assets.epicurious.com/photos/579a2d8e437fcffe02f7230b/6:4/w_1998,h_1332,c_limit/caipirinha-072816.jpg" alt="caipirinha" width="560" height="333">
+</body>
+</html>
